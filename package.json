@@ -1,0 +1,23 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "startno": "forever start --uid \"app\" -a -c nodemon app.js --exitcrash",
+    "stop": "forever stop app"
+  },
+  "author": "RWW",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^2.0.0",
+    "express": "~4.16.1",
+    "log-timestamp": "^0.3.0",
+    "morgan": "~1.9.1",
+    "qrcode": "^1.4.4",
+    "ulid": "^2.3.0"
+  }
+}
